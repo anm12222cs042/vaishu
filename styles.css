@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    text-align: center;
+    margin: 20px;
+}
+
+#weatherInfo {
+    max-width: 90%; /* Responsive width */
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 600px) {
+    #weatherInfo {
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+}
